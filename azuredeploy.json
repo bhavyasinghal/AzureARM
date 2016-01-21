@@ -119,7 +119,7 @@
     "ubuntuOSVersion": "14.04.2-LTS",
     "repository": "Azure",
     "branch": "master",
-    "githubPath": "[concat('https://raw.githubusercontent.com/', variables('repository'), '/azure-quickstart-templates/', variables('branch'), '/bosh-setup/')]"
+    "githubPath": "https://github.com/bhavyasinghal/AzureARM/"
   },
   "resources": [
     {
