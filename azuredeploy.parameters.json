@@ -1,36 +1,18 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "newStorageAccountName": {
-            "value": "strarg7"
-        },
-        "virtualNetworkName": {
-            "value": "boshvnet-crparg7"
-        },
-        "subnetNameForBosh": {
-            "value": "Bosharg7"
-        },
-        "subnetNameForCloudFoundry": {
-            "value": "CloudFoundryarg7"
-        },
-        "vmName": {
-            "value": "vmarg7"
-        },
-        "adminUsername": {
-            "value": "aisadmin"
-        },
-        "adminPassword": {
-            "value": "sample123$"
-        },
-        "tenantID": {
-            "value": "66453ce4-58e5-432c-922b-844fd02ff0ad"
-        },
-        "clientID": {
-            "value": "6e75c0ff-b854-4e1a-ba3d-33b8f432dc16"
-        },
-        "clientSecret": {
-         "value": "Testpassword"
-        }
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "#####"
+    },
+    "vmName": {
+      "value": "#####"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "jcN#ms,]&]~t38A"
     }
+  }
 }
