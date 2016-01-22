@@ -2,6 +2,9 @@ for f in bosh.yml setup_dns.py create_cert.sh setup_devbox.py init.sh deploy_bos
 do
    wget $1/$f -O $f
 done
+
 \cp * ../../
 cd ../../
 python setup_devbox.py
+cd ../../
+sh deploy_bosh.sh
