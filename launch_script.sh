@@ -6,5 +6,4 @@ done
 \cp * ../../
 cd ../../
 python setup_devbox.py
-cd ../../
 sh deploy_bosh.sh
