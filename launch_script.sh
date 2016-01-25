@@ -6,5 +6,4 @@ done
 \cp * ../../
 cd ../../
 python setup_devbox.py
-bosh-init deploy bosh.yml
-#sh deploy_bosh.sh
+sh deploy_bosh.sh
