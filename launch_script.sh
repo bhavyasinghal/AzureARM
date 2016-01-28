@@ -6,5 +6,5 @@ done
 \cp * ../../
 cd ../../
 python setup_devbox.py
-sleep 5m
+sleep 15m
 sh deploy_bosh.sh
