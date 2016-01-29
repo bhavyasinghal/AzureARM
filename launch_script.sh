@@ -7,4 +7,5 @@ done
 cd ../../
 python setup_devbox.py
 sleep 15m
-sh deploy_bosh.sh
+sh deploy_bosh.sh &
+echo $! > pid_file
