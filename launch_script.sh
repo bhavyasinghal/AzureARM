@@ -7,5 +7,5 @@ done
 cd ../../
 python setup_devbox.py
 sleep 15m
-sudo su
+whoami >> logfile.txt
 sh deploy_bosh.sh
