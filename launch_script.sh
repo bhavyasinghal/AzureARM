@@ -1,13 +1,13 @@
-for f in bosh.yml setup_dns.py create_cert.sh setup_devbox.py init.sh deploy_bosh.sh 98-msft-love-cf
-do
-   wget $1/$f -O $f
-done
+#for f in bosh.yml setup_dns.py create_cert.sh setup_devbox.py init.sh deploy_bosh.sh 98-msft-love-cf
+#do
+#   wget $1/$f -O $f
+#done
 
-\cp * ../../
-cd ../../
-python setup_devbox.py
+#\cp * ../../
+#cd ../../
+#python setup_devbox.py
 #sleep 15m
-sudo vi newlogfile.txt
+vi newlogfile.txt
 sudo chmod 777 newlogfile.txt
 whoami >> newlogfile.txt
 #sh deploy_bosh.sh
