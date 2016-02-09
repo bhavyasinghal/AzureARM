@@ -7,7 +7,5 @@
 #cd ../../
 #python setup_devbox.py
 #sleep 15m
-vi newlogfile.txt
-sudo chmod 777 newlogfile.txt
-whoami >> newlogfile.txt
+sh whoamifile.sh
 #sh deploy_bosh.sh
