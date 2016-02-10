@@ -1,11 +1,11 @@
-for f in bosh.yml setup_dns.py create_cert.sh setup_devbox.py init.sh deploy_bosh.sh whoamifile.sh 98-msft-love-cf
+for f in bosh.yml setup_dns.py create_cert.sh setup_devbox.py init.sh deploy_bosh.sh 98-msft-love-cf
 do
    wget $1/$f -O $f
 done
 
 \cp * ../../
 cd ../../
-#python setup_devbox.py
-#sleep 15m
-sh whoamifile.sh
-#sh deploy_bosh.sh
+python setup_devbox.py
+sleep 15m
+#sh whoamifile.sh
+sh deploy_bosh.sh
